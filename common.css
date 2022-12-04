@@ -9,13 +9,18 @@ a:hover{
 	text-decoration: none;
 }
 .w1000{
-	width: 1000px;
-	margin: 0 auto;
+	max-width:-webkit-calc(1000px - (30px * 2));
+	max-width:calc(1000px - (30px * 2));
+	/*width: 1000px;
+	margin: 0 auto;*/
+	margin-right:auto;margin-left:auto;
+	padding-right:30px;padding-left:30px;
 	
 }
 .w1050{
 	width: 1050px;
 	margin: 0 auto;
+	
 }
 
 .w1170{
